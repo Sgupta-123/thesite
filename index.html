@@ -13,7 +13,7 @@
     text-align: left;
   }
   h2
-  {margin-left: -117px;
+  {float:left;
     height:66px;
   }
   article
@@ -45,6 +45,29 @@ nav
   height: 80px;
   width: 100%;
 }
+.st
+{
+  padding: 10px 16px 9px 17px; 
+  float:right;
+  background-color:cadetblue;
+  margin-top: -76px; 
+  color:black; 
+}
+.it
+{
+  float: center; 
+  width:100%; 
+  background-color:cadetblue;
+}
+.food
+{
+  border: 1px solid;
+  background-color:white;
+}
+h1
+{
+  margin-top: -59px;
+}
 </style>
 </head>
 <body>
@@ -52,21 +75,17 @@ nav
 <div class="container">
   <h2 class="container-lg container-md container-sm" id="top"> Food,LLC </h2></nav>                     
   <div class="dropdown">
-  <button type="button" class="a1 fas fa-bars btn btn-dark" data-toggle="collapse" data-target="#demo" style="padding: 10px 16px 9px 17px; float:right;background-color:cadetblue;margin-top: -76px; color:black; ">
+  <button type="button" class="a1 fas fa-bars btn btn-dark st" data-toggle="collapse" data-target="#demo">
   </button>
-  <div id="demo" class="a2 collapse container-xs"style=" float: center; width:100%; background-color:cadetblue;">
- <a class="dropdown-item" href="#chicken" style="border: 1px solid;background-color:white;">chicken</a>
-      <a class="dropdown-item" href="#beef" style="border: 1px solid;background-color:white;">beef</a>
-      <a class="dropdown-item" href="#sushi" style="border: 1px solid; background-color:white;">sushi</a>
+  <div id="demo" class="a2 collapse container-xs">
+ <a class="dropdown-item food" href="#chicken">chicken</a>
+      <a class="dropdown-item food" href="#beef">beef</a>
+      <a class="dropdown-item food" href="#sushi">sushi</a>
   </div>
 </div>
 
-<h1 style="margin-top: -59px"><br><br>OUR MENU</h1>
+<h1><br><br>OUR MENU</h1>
 </div>
-
-
-
-
 <div>
 <article id="chicken"><h3>CHICKEN</h3><br>
 Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising them in comparison to animals such as cattle or hogs, chickens have become prevalent throughout the cuisine of cultures around the world, and their meat has been variously adapted to regional tastes.
